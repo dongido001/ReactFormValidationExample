@@ -1,0 +1,39 @@
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 9px;
+    margin: 7px 3px;
+    width: 350px;
+}
+
+input[type=submit]{
+    padding: 12px 110px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: #222;
+    color: azure;
+    font-weight: bolder;
+}
+
+input:focus{
+    /* To give a little highlight on active elements */
+    border-color: #222;
+  }
+
+.has-error {
+    border: 1px solid red;
+}
+
+.info {
+    border-radius: 9px;
+    padding: 4px;
+}
+
+.info > .error {
+    color: red;
+}
+
+.info > .success {
+    color: green;
+}
